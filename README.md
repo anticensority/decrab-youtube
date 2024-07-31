@@ -6,7 +6,7 @@
 
 Необходимо запустить Хром с выключенными [CORS](https://ru.wikipedia.org/wiki/Cross-origin_resource_sharing): 
 ```
-chrome.exe --disable-web-security --user-data-dir=C:/tmpUserDir
+chrome.exe --disable-web-security --user-data-dir=C:\tmpUserDir
 ```
 `tmpUserDir` -- директория для временного хранения данных нового пользователя.
 
