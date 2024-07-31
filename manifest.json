@@ -1,0 +1,39 @@
+{
+  "manifest_version": 3,
+  "default_locale": "ru",
+  "name": "__MSG_ExtensionName__",
+  "version": "20240731.0.0.1",
+  "description": "__MSG_ExtensionDescription__",
+  "homepage_url": "https://github.com/anticensority/decrab-youtube",
+  "icons": {
+    "128": "/icons/decrab-128.png"
+  },
+  "author": "anticensority+owners@googlegroups.com",
+  "permissions": [
+    "declarativeNetRequestWithHostAccess"
+  ],
+  "host_permissions": [
+    "*://*.googlevideo.com/*",
+    "*://*.googlevideo.com./*",
+    "*://*.youtube.com/*"
+  ],
+  "action": {
+    "default_icon": "./icons/decrab-128.png"
+  },
+  "commands": {
+    "_execute_action": {
+      "suggested_key": {
+        "default": "Alt+Y"
+      }
+    }
+  },
+  "declarative_net_request": {
+    "rule_resources": [
+      {
+        "id": "ruleset_1",
+        "enabled": true,
+        "path": "./src/dnr-rules.json"
+      }
+    ]
+  }
+}

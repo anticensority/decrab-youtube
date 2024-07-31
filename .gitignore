@@ -1,3 +1,5 @@
+*.swp # Vim's unfinished files
+
 # Logs
 logs
 *.log

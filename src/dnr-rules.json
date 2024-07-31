@@ -1,0 +1,41 @@
+[{
+  "id": 1,
+  "priority": 1,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "regexSubstitution": "https://\\1.googlevideo.com./\\2"
+    }
+  },
+  "condition": {
+    "regexFilter": "https://(.*?)\\.googlevideo\\.com/(.*)",
+    "RequestMethods": [
+      "connect",
+      "delete",
+      "get",
+      "head",
+      "options",
+      "patch",
+      "post",
+      "put",
+      "other"
+    ],
+    "resourceTypes": [
+      "main_frame",
+      "sub_frame",
+      "stylesheet",
+      "script",
+      "image",
+      "font",
+      "object",
+      "xmlhttprequest",
+      "ping",
+      "csp_report",
+      "media",
+      "websocket",
+      "webtransport",
+      "webbundle",
+      "other"
+    ]
+  }
+}]
