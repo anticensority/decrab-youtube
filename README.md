@@ -13,7 +13,7 @@
 
             $ chrome.exe --disable-web-security --user-data-dir=C:\tmpDirForChrome
      3) Если файл `chrome.exe` не будет найден, пропишите полный путь к нему.
-        Полный путь можно подсмотреть на `chrome://extensions`, раздел "Executable Path".
+        Полный путь можно подсмотреть на `chrome://version`, раздел "Executable Path".
    - __Для Linux/Unix__:
 
          $ google-chrome --disable-web-security --user-data-dir=/home/<username>/tmpDirForChrome/
