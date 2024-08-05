@@ -23,9 +23,7 @@ __ВНИМАНИЕ: Отключение CORS сделает ваш браузе
     - __Для Linux/Unix__:
 
             $ google-chrome --disable-web-security --user-data-dir=/home/<username>/tmpDirForChrome/
-3. Открыть в новой вкладке Хрома `chrome://extensions`.
-4. Вкл. переключатель "Режим разработчика / Developer mode".
-5. Перетащить на открытую в п.2 вкладку `.crx`-файл, скачанный из раздела [Releases](https://github.com/anticensority/decrab-youtube/releases) данного репозитория на GitHub (ищите справа).
+2. Следуйте инструкциям по установке расширения из .crx-файла в разделе [Releases](https://github.com/anticensority/decrab-youtube/releases) данного репозитория на GitHub (ищите справа).
 
 ### Attributions
 
